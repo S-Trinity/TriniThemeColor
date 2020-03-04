@@ -1,6 +1,7 @@
 {
-	"name": "Trinite Theme",
+	"name": "Trinity Theme",
 	"type": "dark",
+	"semanticClass": "trinity",
 	"colors": {
 		"editor.background": "#263238",
 		"editor.foreground": "#eeffff",
@@ -39,7 +40,7 @@
 			}
 		},
 		{
-			"name": "Public, private et tout et tout",
+			"name": "Public, private, virtual et tout et tout",
 			"scope":["storage.modifier.cs"],
 			"settings": {
 				"foreground": "#2d9dd1",

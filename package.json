@@ -1,6 +1,6 @@
 {
-    "name": "trinitytheme",
-    "displayName": "TrinityTheme",
+    "name": "trinity-theme",
+    "displayName": "Trinity Theme",
     "description": "Theme special Trinity",
     "version": "0.0.1",
     "engines": {
@@ -14,7 +14,12 @@
             {
                 "label": "Trinity Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Trinite Theme-color-theme.json"
+                "path": "./themes/trinity.json"
+            },
+            {
+                "label": "Trinity Anthony",
+                "uiTheme": "vs-dark",
+                "path": "./themes/trinity-anthony.json"
             }
         ]
     }
