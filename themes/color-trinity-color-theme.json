@@ -41,7 +41,9 @@
 		},
 		{
 			"name": "Public, private, virtual et tout et tout",
-			"scope":["storage.modifier.cs"],
+			"scope": [
+				"storage.modifier.cs"
+			],
 			"settings": {
 				"foreground": "#2d9dd1",
 				"fontStyle": "bold"
@@ -582,7 +584,7 @@
 				"markup.quote"
 			],
 			"settings": {
-				"fontStyle": "italic",
+				"fontStyle": "italic"
 			}
 		},
 		{

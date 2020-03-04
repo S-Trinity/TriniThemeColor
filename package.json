@@ -14,12 +14,12 @@
             {
                 "label": "Trinity Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/trinity.json"
+                "path": "./themes/trinity-color-theme.json"
             },
             {
                 "label": "Trinity Anthony",
                 "uiTheme": "vs-dark",
-                "path": "./themes/trinity-anthony.json"
+                "path": "./themes/trinity-anthony-color-theme.json"
             }
         ]
     }
