@@ -1,0 +1,21 @@
+{
+    "name": "trinitytheme",
+    "displayName": "TrinityTheme",
+    "description": "Theme special Trinity",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Trinity Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Trinite Theme-color-theme.json"
+            }
+        ]
+    }
+}
