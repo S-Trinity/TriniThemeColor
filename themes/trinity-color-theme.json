@@ -11,6 +11,204 @@
 	"tokenColors": [
 		{
 			"scope": [
+				"punctuation"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type.type-parameter.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.arithmetic.cs",
+				"keyword.operator.assignment.compound.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.comment.cs",
+				"comment.block.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"comment.line.double-slash.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"constant.language.null.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"keyword.other.get.cs",
+				"keyword.other.set.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.variable.property.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type.namespace.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"keyword.other.as.cs",
+				"keyword.other.using.cs",
+				"keyword.other.await.cs",
+				"keyword.other.var.cs",
+				"keyword.other.typeof.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.squarebracket.open.cs",
+				"punctuation.squarebracket.close.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.increment.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.relational.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"constant.numeric.decimal.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.logical.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.comparison.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.variable.local.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.object.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.separator.colon.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.typeparameters.begin.cs",
+				"punctuation.definition.typeparameters.end.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"keyword.other.new.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
 				"constant.language.boolean.false.cs",
 				"constant.language.boolean.true.cs",
 			],
@@ -46,6 +244,7 @@
 				"punctuation.curlybrace.close.cs",
 			],
 			"settings": {
+				"foreground": "#ff0000",
 				"fontStyle": "bold"
 			}
 		},
@@ -56,6 +255,7 @@
 				"punctuation.parenthesis.close.cs"
 			],
 			"settings": {
+				"foreground": "#ff0000",
 				"fontStyle": "bold"
 			}
 		},
@@ -125,7 +325,7 @@
 				"string.quoted.single.cs",
 			],
 			"settings": {
-				"foreground": "#48ff00",
+				"foreground": "#FF0000",
 				"fontStyle": "bold"
 			}
 		},
@@ -135,7 +335,7 @@
 				"string.quoted.double.cs",
 			],
 			"settings": {
-				"foreground": "#48ff00",
+				"foreground": "#FF0000",
 				"fontStyle": "bold"
 			}
 		},
@@ -146,7 +346,7 @@
 				"punctuation.definition.char.end.cs"
 			],
 			"settings": {
-				"foreground": "#48ff00",
+				"foreground": "#FF0000",
 				"fontStyle": "bold"
 			}
 		},
@@ -157,7 +357,7 @@
 				"punctuation.definition.string.end.cs"
 			],
 			"settings": {
-				"foreground": "#48ff00",
+				"foreground": "#FF0000",
 				"fontStyle": "bold"
 			}
 		},
@@ -167,7 +367,7 @@
 				"entity.name.variable.parameter.cs"
 			],
 			"settings": {
-				"foreground": "#48ff00",
+				"foreground": "#FF0000",
 				"fontStyle": "bold"
 			}
 		},
@@ -177,7 +377,7 @@
 				"entity.name.function.cs"
 			],
 			"settings": {
-				"foreground": "#00f7ff",
+				"foreground": "#FF0000",
 				"fontStyle": "bold"
 			}
 		},
@@ -207,7 +407,7 @@
 				"entity.name.variable.field.cs"
 			],
 			"settings": {
-				"foreground": "#33ff00",
+				"foreground": "#FF0000",
 				"fontStyle": "bold"
 			}
 		},
@@ -237,7 +437,7 @@
 				"storage.type.cs"
 			],
 			"settings": {
-				"foreground": "#39a596",
+				"foreground": "#FF0000",
 				"fontStyle": "bold"
 			}
 		},
@@ -247,7 +447,7 @@
 				"keyword.type.cs"
 			],
 			"settings": {
-				"foreground": "#66b852",
+				"foreground": "#FF0000",
 				"fontStyle": "bold"
 			}
 		},
@@ -257,7 +457,7 @@
 				"storage.modifier.cs"
 			],
 			"settings": {
-				"foreground": "#2d9dd1",
+				"foreground": "#FF0000",
 				"fontStyle": "bold"
 			}
 		},
