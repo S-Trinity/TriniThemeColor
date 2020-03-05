@@ -3,12 +3,224 @@
 	"type": "dark",
 	"semanticClass": "trinity",
 	"colors": {
-		"editor.background": "#263238",
+		"editor.background": "#181818",
 		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
+		"activityBarBadge.background": "#006969",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
 	"tokenColors": [
+		{
+			"scope": [
+				"constant.language.boolean.false.cs",
+				"constant.language.boolean.true.cs",
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Csharp if/else/for/while/do/switch",
+			"scope": [
+				"keyword.control.conditional.if.cs",
+				"keyword.control.conditional.else.cs",
+				"keyword.control.loop.do.cs",
+				"keyword.control.loop.while.cs",
+				"keyword.control.loop.for.cs",
+				"keyword.control.switch.cs",
+				"keyword.control.default.cs",
+				"keyword.control.flow.break.cs",
+				"keyword.control.flow.yield.cs",
+				"keyword.control.flow.return.cs",
+				"keyword.control.flow.continue.cs",
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Csharp bracket",
+			"scope": [
+				"punctuation.curlybrace.open.cs",
+				"punctuation.curlybrace.close.cs",
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Csharp Variables",
+			"scope": [
+				"punctuation.parenthesis.open.cs",
+				"punctuation.parenthesis.close.cs"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Csharp Variables",
+			"scope": [
+				"punctuation.separator.comma.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Csharp Variables",
+			"scope": [
+				"punctuation.accessor.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Csharp Variables",
+			"scope": [
+				"variable.other.object.property.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Csharp Variables",
+			"scope": [
+				"keyword.other.this.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Csharp Variables",
+			"scope": [
+				"variable.other.readwrite.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Csharp arrow",
+			"scope": [
+				"keyword.operator.arrow.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Csharp char",
+			"scope": [
+				"string.quoted.single.cs",
+			],
+			"settings": {
+				"foreground": "#48ff00",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Csharp string",
+			"scope": [
+				"string.quoted.double.cs",
+			],
+			"settings": {
+				"foreground": "#48ff00",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Csharp simple quote",
+			"scope": [
+				"punctuation.definition.char.begin.cs",
+				"punctuation.definition.char.end.cs"
+			],
+			"settings": {
+				"foreground": "#48ff00",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Csharp double quote",
+			"scope": [
+				"punctuation.definition.string.begin.cs",
+				"punctuation.definition.string.end.cs"
+			],
+			"settings": {
+				"foreground": "#48ff00",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Csharp Function parameters name",
+			"scope": [
+				"entity.name.variable.parameter.cs"
+			],
+			"settings": {
+				"foreground": "#48ff00",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Csharp Function Name",
+			"scope": [
+				"entity.name.function.cs"
+			],
+			"settings": {
+				"foreground": "#00f7ff",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Csharp Operator assignment",
+			"scope": [
+				"keyword.operator.assignment.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Csharp semilicon",
+			"scope": [
+				"punctuation.terminator.statement.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Csharp Variable name",
+			"scope": [
+				"entity.name.variable.field.cs"
+			],
+			"settings": {
+				"foreground": "#33ff00",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Csharp Class Declaration",
+			"scope": [
+				"keyword.other.class.cs"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
 		{
 			"name": "Csharp Class Declaration",
 			"scope": [
