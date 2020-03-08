@@ -233,7 +233,7 @@
 				"keyword.other.this.cs",
 			],
 			"settings": {
-				"foreground": "#FF0000",
+				"foreground": "#3D9094",
 				"fontStyle": "bold"
 			}
 		},
@@ -587,7 +587,7 @@
 				"storage.modifier.cs"
 			],
 			"settings": {
-				"foreground": "#FF0000",
+				"foreground": "#945F3D",
 				"fontStyle": "bold"
 			}
 		},
